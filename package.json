@@ -1,0 +1,24 @@
+{
+  "name": "razzle-plugin-wasm",
+  "version": "1.0.1",
+  "description": "Razzle plugin to load wasm using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fivethreeo/razzle-plugin-wasm.git"
+	},
+  "keywords": [
+    "razzle",
+    "plugin",
+		"wasm"
+  ],
+  "author": "Øyvind Saltvik <oyvind.saltvik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fivethreeo/razzle-plugin-wasm/issues"
+	},
+  "homepage": "https://github.com/fivethreeo/razzle-plugin-wasm#readme"
+}
