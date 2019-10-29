@@ -1,22 +1,15 @@
+'use strict';
 
 
 function modify(defaultConfig, { target, dev }, webpack) {
   const config = defaultConfig;
-  
-  config.output.webassemblyModuleFilename = "[hash].wasm";
-  
+    
   config.module.rules.push(
     {
-      test: /\.wasm$/,
-      type: "webassembly/async"
+      test: /\.worker\.js$/,
+      use: { loader: 'worker-loader' }
     }
   )
-
-  config.experiments = {
-    ...(config.experiments || {}), 
-    asyncWebAssembly: true,
-    importAwait: true
-  }
 
   return config;
 }

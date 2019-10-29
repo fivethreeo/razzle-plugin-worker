@@ -1,24 +1,27 @@
 {
-  "name": "razzle-plugin-wasm",
-  "version": "1.0.1",
-  "description": "Razzle plugin to load wasm using webpack",
+  "name": "razzle-plugin-worker",
+  "version": "1.0.4",
+  "description": "Razzle plugin to load workers using worker-loader.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fivethreeo/razzle-plugin-wasm.git"
+    "url": "git+https://github.com/fivethreeo/razzle-plugin-worker.git"
 	},
   "keywords": [
     "razzle",
     "plugin",
-		"wasm"
+		"worker"
   ],
   "author": "Øyvind Saltvik <oyvind.saltvik@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fivethreeo/razzle-plugin-wasm/issues"
+    "url": "https://github.com/fivethreeo/razzle-plugin-worker/issues"
 	},
-  "homepage": "https://github.com/fivethreeo/razzle-plugin-wasm#readme"
+  "homepage": "https://github.com/fivethreeo/razzle-plugin-worker#readme",
+  "dependencies": {
+    "worker-loader": "^2.0.0"
+  }
 }
